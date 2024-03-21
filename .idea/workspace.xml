@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/IndexOfDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/SubStringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SubStringDemo">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="IndexOfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.IndexOfDemo" />
       <module name="jsd2403_SE" />
@@ -108,10 +106,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Test" />
+      <module name="jsd2403_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubStringDemo" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.IndexOfDemo" />
+        <item itemvalue="Application.SubStringDemo" />
         <item itemvalue="Application.LengthDemo" />
         <item itemvalue="Application.StringDemo" />
       </list>
@@ -126,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1710986166669</updated>
       <workItem from="1710986167780" duration="7347000" />
-      <workItem from="1711003770983" duration="1942000" />
+      <workItem from="1711003770983" duration="2682000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -149,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711003668135</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="maven">
+      <created>1711006335741</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711006335741</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
