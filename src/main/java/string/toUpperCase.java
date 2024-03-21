@@ -10,7 +10,7 @@ public class toUpperCase {
         System.out.println(upper);
         String lower = str.toLowerCase();
         System.out.println(lower);
-
+//验证码
         String code = "A78dsB";
         System.out.println("请输入验证码"+code);
         Scanner scan = new Scanner(System.in);
@@ -19,6 +19,7 @@ public class toUpperCase {
         code = code.toLowerCase();
         input = code.toLowerCase();
         System.out.println(code.equals(input));
+        //System.out.println(code.equalsIgnoreCase(input)); 忽略大小写比较 可以不需要前两句的转换
 
 
 
