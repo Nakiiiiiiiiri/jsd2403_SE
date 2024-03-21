@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/ValueOfDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Test05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day01/Test06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +47,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Test05.executor": "Run",
     "Application.ValueOfDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403-se-teacher",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,9 +63,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValueOfDemo">
-    <configuration name="StartsWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StartsWith" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\java" />
+      <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main" />
+      <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homework.day01" />
+      <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homeo1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test05">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.Test" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
@@ -69,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.Test" />
+    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01.Test05" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test05" />
         <item itemvalue="Application.ValueOfDemo" />
         <item itemvalue="Application.toUpperCase" />
         <item itemvalue="Application.TrimDemo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.StartsWith" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +164,7 @@
       <workItem from="1711016185202" duration="711000" />
       <workItem from="1711019685207" duration="189000" />
       <workItem from="1711019975184" duration="262000" />
-      <workItem from="1711020250189" duration="1078000" />
+      <workItem from="1711020250189" duration="3935000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -232,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711019697836</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="maven">
+      <option name="closed" value="true" />
+      <created>1711021399248</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711021399248</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
