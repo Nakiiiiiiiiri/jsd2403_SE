@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/CharAt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/TrimDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/StartsWith.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string/toUpperCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/IndexOfDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/IndexOfDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CharAt">
+  <component name="RunManager" selected="Application.toUpperCase">
     <configuration name="CharAt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CharAt" />
       <module name="jsd2403_SE" />
@@ -69,21 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.IndexOfDemo" />
-      <module name="jsd2403_SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.SubStringDemo" />
+    <configuration name="StartsWith" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StartsWith" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
@@ -121,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="toUpperCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.toUpperCase" />
+      <module name="jsd2403_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.toUpperCase" />
+        <item itemvalue="Application.StartsWith" />
         <item itemvalue="Application.CharAt" />
         <item itemvalue="Application.TrimDemo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.IndexOfDemo" />
-        <item itemvalue="Application.SubStringDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,7 @@
       <updated>1710986166669</updated>
       <workItem from="1710986167780" duration="7347000" />
       <workItem from="1711003770983" duration="3076000" />
-      <workItem from="1711007513752" duration="3990000" />
+      <workItem from="1711007513752" duration="5522000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -185,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711007743604</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="maven">
+      <created>1711012255283</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711012255283</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
