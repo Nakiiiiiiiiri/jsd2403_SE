@@ -1,2 +1,7 @@
-package doc;public class DcoDemo {
+package doc;
+
+/**
+ *
+ */
+public class DcoDemo {
 }
