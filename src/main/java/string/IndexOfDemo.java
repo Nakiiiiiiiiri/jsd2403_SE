@@ -5,13 +5,17 @@ public class IndexOfDemo {
         ///////////////0123456789012345   in在2 5 9
         String line = "thinking in java";
         int index = line.indexOf("in");
-        System.out.println(index);;
+        System.out.println(index);
+
         int INDEX = line.indexOf("IN");
         System.out.println(INDEX);
-        index = line.indexOf("in",3);
+
+        index = line.indexOf("in",3);//重载从下标3开始
         System.out.println(index);
+
         index = line.indexOf("in",6);
         System.out.println(index);
+
         index = line.lastIndexOf("in");
         System.out.println(index);
 
