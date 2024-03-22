@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="maven">
+      <change afterPath="$PROJECT_DIR$/src/main/java/object/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/zhengze/ReplaceAllDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/zhengze/ReplaceAllDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,7 @@
       <workItem from="1711073666613" duration="5062000" />
       <workItem from="1711080093636" duration="616000" />
       <workItem from="1711087505999" duration="457000" />
-      <workItem from="1711087977569" duration="3438000" />
+      <workItem from="1711087977569" duration="4765000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -305,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711090298656</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="maven">
+      <created>1711092016059</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711092016059</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
