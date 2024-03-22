@@ -5,7 +5,8 @@ public class StringBuilderDemo {
         String str  = "学习java,为了未来";
                       // 0123456  78901
         StringBuilder builder = new StringBuilder(str);
-        builder.append("的未来");//向后增加内容
+        /*
+       builder.append("的未来");//向后增加内容
         String s = builder.toString();
         System.out.println(s);
         builder.replace(7,14,"为了能迎来未来存在的未来");
@@ -17,6 +18,31 @@ public class StringBuilderDemo {
         builder.insert(0,"速食面!");
         s=builder.toString();
         System.out.println(s);
+        builder.reverse();
+        System.out.println(s);*/
+
+        builder.append("的未来")
+              .replace(7,14,"为了能迎来未来存在的未来")
+                .delete(0,7)
+                .insert(0,"速食面!");
+        System.out.println(builder.toString());
+        //可以连续打点使用
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
