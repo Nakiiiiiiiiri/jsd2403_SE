@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/ReplaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/SplitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string/SpliteDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/string/matches.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/matches.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/string/zhengze/ReplaceAllDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/zhengze/ReplaceAllDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -174,7 +171,7 @@
       <workItem from="1711073666613" duration="5062000" />
       <workItem from="1711080093636" duration="616000" />
       <workItem from="1711087505999" duration="457000" />
-      <workItem from="1711087977569" duration="2032000" />
+      <workItem from="1711087977569" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -301,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711080039583</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="maven">
+      <created>1711090298656</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711090298656</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
