@@ -8,7 +8,7 @@ import java.util.Collection;
 public class CollectionDemo1 {
     public static void main(String[] args) {
         Collection c = new ArrayList();
-        //Collection c = new HashSet();//Set集合不能放重复元素，
+        //Collection c = new HashSet();//Set集合不能放重复元素，自动排序
         c.add("one");
         c.add("two");
         c.add("three");
