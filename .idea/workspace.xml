@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/Collection4Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/CollectionDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/IteratorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/CollectionToArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/ListDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/ListDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/NewForDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection/SortListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/IteratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/IteratorDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +61,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE/src/main/java",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,9 +85,9 @@
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homeo1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IteratorDemo">
-    <configuration name="Collection4Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.Collection4Demo" />
+  <component name="RunManager" selected="Application.SortListDemo">
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ArrayListDemo" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.CollectionDemo3" />
+    <configuration name="CollectionToArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.CollectionToArrayDemo" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.IteratorDemo" />
+    <configuration name="ListDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ListDemo2" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.Test04" />
+    <configuration name="ListDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.ListDemo3" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.Test05" />
+    <configuration name="SortListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.SortListDemo" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IteratorDemo" />
-        <item itemvalue="Application.Collection4Demo" />
-        <item itemvalue="Application.CollectionDemo3" />
-        <item itemvalue="Application.Test05" />
-        <item itemvalue="Application.Test04" />
+        <item itemvalue="Application.SortListDemo" />
+        <item itemvalue="Application.ArrayListDemo" />
+        <item itemvalue="Application.CollectionToArrayDemo" />
+        <item itemvalue="Application.ListDemo3" />
+        <item itemvalue="Application.ListDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +184,8 @@
       <workItem from="1711087505999" duration="457000" />
       <workItem from="1711087977569" duration="18046000" />
       <workItem from="1711154042485" duration="2000" />
-      <workItem from="1711154071527" duration="6540000" />
+      <workItem from="1711154071527" duration="20792000" />
+      <workItem from="1711187495710" duration="269000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -341,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711161036407</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="更新">
+      <created>1711166453823</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711166453824</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
