@@ -3,7 +3,7 @@ package collection;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class Collection4Demo {
+public class CollectionDemo4 {
     public static void main(String[] args) {
         Collection<Point> c4 = new ArrayList();//加入<Point>，数组集合中只能放Point类型
         Point p = new Point(10, 20);

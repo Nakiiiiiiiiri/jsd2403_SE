@@ -2,6 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 
 //list重复且有序的接口
 // ste:
@@ -14,6 +15,7 @@ public class CollectionDemo1 {
         c.add("three");
         c.add("one");
         System.out.println(c.add("one"));//set集合时返回false
+
         System.out.println(c);
 
 
