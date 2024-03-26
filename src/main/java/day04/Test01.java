@@ -1,6 +1,7 @@
 package day04;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -16,10 +17,19 @@ import java.util.Random;
 public class Test01 {
 	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<>();
+
 		Random random = new Random();
 		for(int i=0;i<20;i++){
 			list.add(random.nextInt(100));
 		}
+		Collections.sort(list);
+		System.out.println(list);
+		List<Integer> list2 =list.subList(5,14);
+		Collections.reverse(list2);
+		System.out.println(list2);
+
+
+
 
 	}
 }

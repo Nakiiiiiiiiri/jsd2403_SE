@@ -17,6 +17,7 @@ public class ListDemo3 {
             submit.set(i,submit.get(i)*10);
 
         }System.out.println(submit);
+
         System.out.println(list);//也大了10倍，操作子集就是操作原集合对应的元素
         list.subList(2,8)
         .clear();

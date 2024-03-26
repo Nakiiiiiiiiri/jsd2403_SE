@@ -5,28 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lambda/LambdaDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lambda/LambdaDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/day04/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/CreateNewFileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/DeleteDirDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/DeleteFileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/FileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/ListFilesDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/ListFilesDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/MkDirDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/file/Test4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/CopyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/CopyDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/FISDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/FOSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/WriteStringDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/Collection4Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/CollectionDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/CollectionDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/CollectionDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/SortListDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/SortListDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collection/SortListDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/SortListDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection/ListDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection/ListDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day04/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day04/Test01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +61,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE/src/main/java",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,7 +70,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,13 +85,13 @@
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homeo1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaDemo2">
-    <configuration name="LambdaDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambda.LambdaDemo2" />
+  <component name="RunManager" selected="Application.WriteStringDemo">
+    <configuration name="CopyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.CopyDemo" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListFilesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.ListFilesDemo" />
+    <configuration name="CopyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.CopyDemo2" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListFilesDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.ListFilesDemo2" />
+    <configuration name="FISDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.FISDemo" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.Test3" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Test2" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="file.Test4" />
+    <configuration name="WriteStringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.WriteStringDemo" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="file.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LambdaDemo2" />
-        <item itemvalue="Application.ListFilesDemo2" />
-        <item itemvalue="Application.ListFilesDemo" />
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.WriteStringDemo" />
+        <item itemvalue="Application.CopyDemo2" />
+        <item itemvalue="Application.CopyDemo" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.FISDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +187,8 @@
       <workItem from="1711154071527" duration="20792000" />
       <workItem from="1711187495710" duration="269000" />
       <workItem from="1711327715291" duration="8463000" />
-      <workItem from="1711336443576" duration="19306000" />
+      <workItem from="1711336443576" duration="19504000" />
+      <workItem from="1711413420190" duration="11658000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -382,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711332701681</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="更新">
+      <created>1711369871524</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711369871524</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
