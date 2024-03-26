@@ -12,7 +12,7 @@ public class CopyDemo2 {
         int len =0;
         double start = System.currentTimeMillis();
 
-        byte[] data = new byte[1024*10];//10kb
+        byte[] data = new byte[1024*100];//10kb
         while ((len = fis.read(data))!=-1){
             fos.write(data,0,len);//无损复制
             //fos.write(data);
