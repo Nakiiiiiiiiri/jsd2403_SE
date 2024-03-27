@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/CopyDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/FlushDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/ReadStringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day05/Test04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_cp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image_cp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_cp1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image_cp1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/CopyDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/CopyDemo2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_341/src.zip!/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/demo.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -60,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403-se-teacher",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
