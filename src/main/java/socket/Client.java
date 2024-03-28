@@ -29,13 +29,18 @@ public class Client {
                 Scanner scan = new Scanner(System.in);
                 String line = scan.nextLine();
                 pw.println(line);
-                if(line.equalsIgnoreCase("bye")){
+                if("bye".equalsIgnoreCase(line)){//line写后边防止引起空指针异常，写后边最多返回false
                     break;
                 }
             }
-
         }catch (IOException e){
             e.printStackTrace();
+        }finally {
+            try{
+                socket.close();//四次挥手关闭
+            }catch (IOException e){
+                e.printStackTrace();
+            }
         }
 
     }
