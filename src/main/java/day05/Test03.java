@@ -1,5 +1,8 @@
 package day05;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
@@ -14,6 +17,32 @@ import java.io.IOException;
  */
 public class Test03 {
 	public static void main(String[] args) throws IOException {
+		File dir = new File(".");
+		if(dir.isDirectory()){
+			File[] subs = dir.listFiles(file->file.isFile());
+			for(int i=0;i<subs.length;i++){
+				File file = subs[i];
+				String filename = file.getName();
+				String name1 = filename.substring(0,filename.lastIndexOf("."));//截取从下标0开始到第一个"."的下标，含头不含尾
+				String name2 = filename.substring(filename.lastIndexOf("."));
+				String newFileName = name1+"_cp"+name2 ;
+				FileInputStream fis = new FileInputStream(file);
+				FileOutputStream fos = new FileOutputStream(newFileName);
+				byte[] data = new byte[1024*10];
+				int len;
+				while ((len = fis.read(data))!=-1){//检测是否有数据可读
+					fos.write(data,0,len);
+
+				}
+				fos.close();
+				fis.close();
+
+
+
+
+			}
+
+		}
 		
 	}
 }

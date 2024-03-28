@@ -5,9 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/answer/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/answer/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/answer/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/answer/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day06/answer/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_cp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_cp1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day05/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day05/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day05/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day05/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day05/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day05/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day05/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day05/Test04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +67,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/untitled",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403-se-teacher",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,7 +76,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "http.proxy",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,13 +94,13 @@
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homeo1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket.Client" />
+  <component name="RunManager" selected="Application.Test04">
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.Test01" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="socket.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionApiDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.ExceptionApiDemo" />
+    <configuration name="Test02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.Test02" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinallyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.FinallyDemo2" />
+    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.Test03" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket.Server" />
+    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.Test04" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="socket.*" />
+          <option name="PATTERN" value="day05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exception.ThrowDemo" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.Test3" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exception.*" />
+          <option name="PATTERN" value="io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.ExceptionApiDemo" />
-      <item itemvalue="Application.FinallyDemo2" />
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.ThrowDemo" />
+      <item itemvalue="Application.Test02" />
+      <item itemvalue="Application.Test03" />
+      <item itemvalue="Application.Test04" />
+      <item itemvalue="Application.Test3" />
+      <item itemvalue="Application.Test01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.ExceptionApiDemo" />
-        <item itemvalue="Application.ThrowDemo" />
-        <item itemvalue="Application.FinallyDemo2" />
+        <item itemvalue="Application.Test04" />
+        <item itemvalue="Application.Test02" />
+        <item itemvalue="Application.Test03" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +205,7 @@
       <workItem from="1711327715291" duration="8463000" />
       <workItem from="1711336443576" duration="19504000" />
       <workItem from="1711413420190" duration="19649000" />
+      <workItem from="1711625159081" duration="3492000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -416,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711614840697</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="更新">
+      <created>1711623945103</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1711623945103</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
