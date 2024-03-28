@@ -1,0 +1,156 @@
+Index: src/main/java/io/FlushDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package io;\r\n\r\nimport java.io.BufferedOutputStream;\r\nimport java.io.FileNotFoundException;\r\nimport java.io.FileOutputStream;\r\nimport java.io.IOException;\r\nimport java.nio.charset.StandardCharsets;\r\n\r\npublic class FlushDemo {\r\n    public static void main(String[] args) throws IOException {\r\n        FileOutputStream fos = new FileOutputStream(\"bos.txt\");\r\n        BufferedOutputStream bos = new BufferedOutputStream(fos);\r\n        String line = \"你有没有听见孩子们的悲鸣\";\r\n        byte[] date = line.getBytes(StandardCharsets.UTF_8);\r\n        bos.write(date);\r\n        System.out.println(\"写出完毕\");\r\n        bos.close();//此处不关会导致不到默认的8k直接文本没内容\r\n\r\n\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/io/FlushDemo.java b/src/main/java/io/FlushDemo.java
+--- a/src/main/java/io/FlushDemo.java	
++++ b/src/main/java/io/FlushDemo.java	
+@@ -6,15 +6,17 @@
+ import java.io.IOException;
+ import java.nio.charset.StandardCharsets;
+ 
+-public class FlushDemo {
++public class FlushDemo {//冲水,所有输出流都有这个方法
+     public static void main(String[] args) throws IOException {
+         FileOutputStream fos = new FileOutputStream("bos.txt");
+         BufferedOutputStream bos = new BufferedOutputStream(fos);
+         String line = "你有没有听见孩子们的悲鸣";
+         byte[] date = line.getBytes(StandardCharsets.UTF_8);
+         bos.write(date);
++        //bos.flush();强制将缓冲流内部数组中已缓存的数据一次性写出，可以防止数据丢失，防止下边忘关，车没给老板
++        //聊天软件中发送短消息长消息，可以使用
+         System.out.println("写出完毕");
+-        bos.close();//此处不关会导致不到默认的8k直接文本没内容
++        bos.close();//此处不关会导致不到默认的8k,东西还在车上没给老板，导致直接文本没内容
+ 
+ 
+ 
+Index: src/main/java/io/oisDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/io/oisDemo.java b/src/main/java/io/oisDemo.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/io/oisDemo.java	
+@@ -0,0 +1,14 @@
++package io;
++
++import java.io.*;
++
++public class oisDemo {
++    public static void main(String[] args) throws IOException, ClassNotFoundException {
++        FileInputStream fis = new FileInputStream("Person.obj");
++        ObjectInputStream ois = new ObjectInputStream(fis);
++        Person p = (Person) ois.readObject();
++        System.out.println(p);
++        System.out.println("读取成功");
++        ois.close();
++    }
++}
+Index: src/main/java/io/OOSDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/io/OOSDemo.java b/src/main/java/io/OOSDemo.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/io/OOSDemo.java	
+@@ -0,0 +1,20 @@
++package io;
++
++import java.io.FileOutputStream;
++import java.io.IOException;
++import java.io.ObjectOutputStream;
++
++public class OOSDemo {
++    public static void main(String[] args) throws IOException {
++        String name = "刘备";
++        int age = 30;
++        char gender = '男';
++        String[] otherinfo = {"英姿美貌", "英才英俊"};
++        Person p = new Person(name, age, gender, otherinfo);
++        FileOutputStream fos = new FileOutputStream("person.obj");
++        ObjectOutputStream oos = new ObjectOutputStream(fos);
++        oos.writeObject(p);
++        System.out.println("写出完毕");
++        oos.close();
++    }
++}
+Index: src/main/java/io/Person.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/io/Person.java b/src/main/java/io/Person.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/io/Person.java	
+@@ -0,0 +1,62 @@
++package io;
++
++import java.io.Serializable;
++import java.util.Arrays;
++//使当前类测试对象流的序列化与反序列化
++//java bean
++public class Person implements Serializable {//写出一个对象的类需要实现一个Serializable接口，反序列化
++    private String name;
++    private int age;
++    private char Gender;
++    private String[] otherinfo;
++    Person(){}
++
++    public Person(String name, int age, char gender, String[] otherinfo) {
++        this.name = name;
++        this.age = age;
++        Gender = gender;
++        this.otherinfo = otherinfo;
++    }
++
++    @Override
++    public String toString() {
++        return "Person{" +
++                "name='" + name + '\'' +
++                ", age=" + age +
++                ", Gender=" + Gender +
++                ", otherinfo=" + Arrays.toString(otherinfo) +
++                '}';
++    }
++
++    public String getName() {
++        return name;
++    }
++
++    public void setName(String name) {
++        this.name = name;
++    }
++
++    public int getAge() {
++        return age;
++    }
++
++    public void setAge(int age) {
++        this.age = age;
++    }
++
++    public char getGender() {
++        return Gender;
++    }
++
++    public void setGender(char gender) {
++        Gender = gender;
++    }
++
++    public String[] getOtherinfo() {
++        return otherinfo;
++    }
++
++    public void setOtherinfo(String[] otherinfo) {
++        this.otherinfo = otherinfo;
++    }
++}

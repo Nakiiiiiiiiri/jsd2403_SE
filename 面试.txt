@@ -1,0 +1,7 @@
+Intern()方法，若字符串常量池中已经存在一个，则会调用已有的，
+将他们指向同一个内存地址，从而节省内存空间，提高性能
+String s1 = new String("Hello");
+String s2 = "Hello";
+System.out.println(s1==s1);//false
+s1 = s1.intern();
+System.out.println(s1==s2);//true
