@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/socket/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/socket/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlushDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.FlushDemo" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.Server" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.ExceptionApiDemo" />
         <item itemvalue="Application.ThrowDemo" />
         <item itemvalue="Application.FinallyDemo2" />
-        <item itemvalue="Application.FlushDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711596974772</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="更新">
+      <created>1711607042242</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1711607042242</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
