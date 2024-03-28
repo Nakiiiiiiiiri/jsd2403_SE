@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ExceptionApiDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/FinallyDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/IllegalAgeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ThrowDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exception/ThrowsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/OOSDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/oisDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_3_27_15_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2024_3_27_15_25__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socket/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/socket/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fos.dat" beforeDir="false" afterPath="$PROJECT_DIR$/fos.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/FlushDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/FlushDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目经理的任务.txt" beforeDir="false" afterPath="$PROJECT_DIR$/项目经理的任务.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +81,13 @@
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homeo1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionApiDemo">
-    <configuration name="CopyDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.CopyDemo3" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.Client" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.ExceptionApiDemo" />
         <item itemvalue="Application.ThrowDemo" />
         <item itemvalue="Application.FinallyDemo2" />
         <item itemvalue="Application.FlushDemo" />
-        <item itemvalue="Application.CopyDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711526180846</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="更新">
+      <created>1711596974772</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1711596974772</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
