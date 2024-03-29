@@ -27,6 +27,7 @@ public class Server {
                 System.out.println("等待客户端连接");
                 Socket socket = serverSocket.accept();//accept()方法会阻塞，直到有客户端连接
                 System.out.println("一个新的客户端连接成功");
+
                 InputStream in = socket.getInputStream();
                 InputStreamReader isr = new InputStreamReader(in, StandardCharsets.UTF_8);
                 BufferedReader br = new BufferedReader(isr);
@@ -43,9 +44,6 @@ public class Server {
                 }
 
             }
-
-
-
         }catch (IOException e){
             e.printStackTrace();
         }

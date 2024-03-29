@@ -5,3 +5,7 @@ String s2 = "Hello";
 System.out.println(s1==s1);//false
 s1 = s1.intern();
 System.out.println(s1==s2);//true
+
+先父后字，优先静态
+
+kit工具箱，development开发环境，compile编译
