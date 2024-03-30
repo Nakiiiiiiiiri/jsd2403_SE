@@ -1,16 +1,16 @@
 package socket;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
 
 //聊天室服务端
 public class Server {
     private ServerSocket serverSocket;
+    private List<PrintWriter> allOut = new ArrayList<>();
     public Server(){
         try{
             System.out.println("正在启动服务端");
@@ -47,30 +47,47 @@ public class Server {
         private Socket socket;
         private String ip;
 
+        private String nickname;
+
         public ClientHandler(Socket socket){
             this.socket = socket;
             ip = socket.getInetAddress().getHostAddress();
         }
         public void run(){
-            try {
+            try {//接收发过来的数据
                 InputStream in = socket.getInputStream();
                 InputStreamReader isr = new InputStreamReader(in, StandardCharsets.UTF_8);
                 BufferedReader br = new BufferedReader(isr);
-                String nickname = br.readLine();
-                System.out.println("id:"+nickname);
+//给客户端发消息
+                OutputStream out =  socket.getOutputStream();
+                OutputStreamWriter osw = new OutputStreamWriter(out,StandardCharsets.UTF_8);
+                BufferedWriter bw = new BufferedWriter(osw);
+                PrintWriter pw = new PrintWriter(bw,true);
+
+                //接收客户端发来的第一行字符作为昵称
+                nickname = br.readLine();
+
+                allOut.add(pw);//将客户端的输出流存入共享集合中
+                System.out.println(nickname+"加入聊天室，当前人数"+allOut.size());
 
 
 
-                while (true){
+                String str;
+                while ((str=br.readLine())!=null){
 
-                    String str=br.readLine();
+                    //服务端输出客户端传来的消息
                     System.out.println(ip+nickname+"说:"+str);
-                    if("bye".equalsIgnoreCase(str)){
-                        break;
+                    for(PrintWriter o : allOut){
+                        o.println(ip+nickname+"说:"+str);
                     }
+                    //将消息发回给客户端
+                    //pw.println();
+                    /*if("bye".equalsIgnoreCase(str)){
+                        break;
+                    }*/
                 }
             }catch (IOException e){
-                e.printStackTrace();
+                System.out.println(e);
 
             }
 

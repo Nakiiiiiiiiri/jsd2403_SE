@@ -8,7 +8,7 @@ import java.util.Scanner;
 //Socket封装了TCP协议的通讯细节，使用他可以喝远端计算机建立网络连接，并基于两条流支持用户通讯
 public class Client {
     private Socket socket;
-    public Client(){
+        public Client(){
         try{
             System.out.println("正在连接诶服务端");
             socket = new Socket("176.17.13.62",8088);
@@ -25,8 +25,9 @@ public class Client {
             OutputStreamWriter osw = new OutputStreamWriter(out, StandardCharsets.UTF_8);
             BufferedWriter bw = new BufferedWriter(osw);
             PrintWriter pw = new PrintWriter(bw,true);//自动行刷新
-            String nickname = "";
 
+
+            String nickname = "";
             while(true){
                 System.out.println("请输入昵称");
                 nickname = scan.nextLine();
@@ -34,14 +35,23 @@ public class Client {
                     pw.println(nickname);
                     break;
                 }
+                System.out.println("昵称不能为空");
             }
+            //将接收服务端发送过来消息的线程启动
+            //使用ServerHandler
+            ServerHandler handler = new ServerHandler();
+            Thread t  = new Thread(handler);
+            t.setDaemon(true);
+            t.start();
 
 
+            System.out.println("开始聊天吧");
             while (true){
-                pw.println(scan.nextLine());
-                if("bye".equalsIgnoreCase(scan.nextLine())){//line写后边防止引起空指针异常，写后边最多返回false
+                String line=scan.nextLine();
+                if("bye".equalsIgnoreCase(line)){//line写后边防止引起空指针异常，写后边最多返回false
                     break;
                 }
+                pw.println(line);
             }
         }catch (IOException e){
             e.printStackTrace();
@@ -58,6 +68,24 @@ public class Client {
     public static void main(String[] args) {
         Client client = new Client();
         client.start();
+
+    }
+    private class ServerHandler implements Runnable{
+        @Override
+        public void run() {
+            try {
+                //读取服务器发来的消息
+                InputStream in = socket.getInputStream();
+                InputStreamReader isr = new InputStreamReader(in, StandardCharsets.UTF_8);
+                BufferedReader br = new BufferedReader(isr);
+                String line;
+                while ((line =br.readLine())!=null){
+                    System.out.println(line);
+                }
+            } catch (IOException e) {
+
+            }
+        }
     }
 }
 

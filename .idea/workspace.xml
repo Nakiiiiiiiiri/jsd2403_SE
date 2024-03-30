@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/SyncDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/DaemonThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/SyncDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/SyncDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/SyncDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/SyncDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Thread/SyncDemo6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="04da8263-ae33-42e6-a03c-d806617458cb" />
+        <option name="url" value="https://github.com/Nakiiiiiiiiri/jsd2403_SE.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/demo.txt" root0="SKIP_INSPECTION" />
@@ -54,7 +73,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,10 +99,52 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homeo1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Thread" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.SyncDemo1">
-    <configuration name="Bank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.Bank" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.Client" />
+      <module name="jsd2403_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.Server" />
+      <module name="jsd2403_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.Server" />
+      <module name="jsd2403_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.SyncDemo5" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
@@ -95,47 +156,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.PriorityDemo" />
-      <module name="jsd2403_SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SleepDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.SleepDemo" />
-      <module name="jsd2403_SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SleepDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.SleepDemo2" />
-      <module name="jsd2403_SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyncDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.SyncDemo1" />
+    <configuration name="SyncDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.SyncDemo6" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
@@ -148,19 +170,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Bank" />
-      <item itemvalue="Application.SyncDemo1" />
-      <item itemvalue="Application.PriorityDemo" />
-      <item itemvalue="Application.SleepDemo" />
-      <item itemvalue="Application.SleepDemo2" />
+      <item itemvalue="Application.Server (1)" />
+      <item itemvalue="Application.SyncDemo5" />
+      <item itemvalue="Application.SyncDemo6" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SyncDemo1" />
-        <item itemvalue="Application.Bank" />
-        <item itemvalue="Application.SleepDemo2" />
-        <item itemvalue="Application.SleepDemo" />
-        <item itemvalue="Application.PriorityDemo" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.SyncDemo6" />
+        <item itemvalue="Application.SyncDemo5" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +216,8 @@
       <workItem from="1711413420190" duration="19649000" />
       <workItem from="1711625159081" duration="3970000" />
       <workItem from="1711673249006" duration="20435000" />
-      <workItem from="1711759541808" duration="5834000" />
+      <workItem from="1711759541808" duration="19528000" />
+      <workItem from="1711788184017" duration="3671000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -447,11 +470,29 @@
       <option name="project" value="LOCAL" />
       <updated>1711760606300</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="更新">
+      <created>1711766618379</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1711766618379</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
