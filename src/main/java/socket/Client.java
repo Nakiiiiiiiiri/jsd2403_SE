@@ -20,16 +20,26 @@ public class Client {
     }
     public void start(){
         try{
+            Scanner scan = new Scanner(System.in);
             OutputStream out  = socket.getOutputStream();
             OutputStreamWriter osw = new OutputStreamWriter(out, StandardCharsets.UTF_8);
             BufferedWriter bw = new BufferedWriter(osw);
             PrintWriter pw = new PrintWriter(bw,true);//自动行刷新
-            out.write(1);
+            String nickname = "";
+
+            while(true){
+                System.out.println("请输入昵称");
+                nickname = scan.nextLine();
+                if (nickname.trim().length()>0){
+                    pw.println(nickname);
+                    break;
+                }
+            }
+
+
             while (true){
-                Scanner scan = new Scanner(System.in);
-                String line = scan.nextLine();
-                pw.println(line);
-                if("bye".equalsIgnoreCase(line)){//line写后边防止引起空指针异常，写后边最多返回false
+                pw.println(scan.nextLine());
+                if("bye".equalsIgnoreCase(scan.nextLine())){//line写后边防止引起空指针异常，写后边最多返回false
                     break;
                 }
             }

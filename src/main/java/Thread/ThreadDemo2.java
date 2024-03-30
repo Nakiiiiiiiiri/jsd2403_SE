@@ -2,8 +2,10 @@ package Thread;
 
 public class ThreadDemo2 {
     public static void main(String[] args) {
+        //实例化线程要并发执行的任务
         Runnable r1 = new MyRunnable1();
         Runnable r2 = new MyRunnable2();
+        //实例化现成
         Thread t1 = new Thread(r1);
         Thread t2 = new Thread(r2);
         t1.start();

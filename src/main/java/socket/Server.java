@@ -28,20 +28,11 @@ public class Server {
                 Socket socket = serverSocket.accept();//accept()方法会阻塞，直到有客户端连接
                 System.out.println("一个新的客户端连接成功");
 
-                InputStream in = socket.getInputStream();
-                InputStreamReader isr = new InputStreamReader(in, StandardCharsets.UTF_8);
-                BufferedReader br = new BufferedReader(isr);
+                ClientHandler handler = new ClientHandler(socket);
+                Thread t= new Thread(handler);
+                t.start();
 
-                int d = in.read();
-                System.out.println(d);
 
-                while (true){
-                    String str=br.readLine();
-                    System.out.println(str);
-                    if("bye".equalsIgnoreCase(str)){
-                        break;
-                    }
-                }
 
             }
         }catch (IOException e){
@@ -51,6 +42,39 @@ public class Server {
     public static void main(String[] args) {
         Server server = new Server();
         server.start();
+    }
+    private class ClientHandler implements Runnable{
+        private Socket socket;
+        private String ip;
 
+        public ClientHandler(Socket socket){
+            this.socket = socket;
+            ip = socket.getInetAddress().getHostAddress();
+        }
+        public void run(){
+            try {
+                InputStream in = socket.getInputStream();
+                InputStreamReader isr = new InputStreamReader(in, StandardCharsets.UTF_8);
+                BufferedReader br = new BufferedReader(isr);
+                String nickname = br.readLine();
+                System.out.println("id:"+nickname);
+
+
+
+                while (true){
+
+                    String str=br.readLine();
+                    System.out.println(ip+nickname+"说:"+str);
+                    if("bye".equalsIgnoreCase(str)){
+                        break;
+                    }
+                }
+            }catch (IOException e){
+                e.printStackTrace();
+
+            }
+
+
+        }
     }
 }
