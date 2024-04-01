@@ -105,8 +105,11 @@ public class Server {
                 System.out.println(e);
 
             }finally {
+                synchronized (allOut){
+                    allOut.remove(pw);
+                }
                 //处理客户端断开连接后的操作
-                allOut.remove(pw);
+
                 sendMessage(nickname+"下线了,当前在线人数"+allOut.size());
             }
             try {

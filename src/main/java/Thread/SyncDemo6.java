@@ -3,7 +3,7 @@ package Thread;
 public class SyncDemo6 {
     public static void main(String[] args) {
         Foo foo = new Foo();
-        Thread t1 = new Thread(()->foo.methodA());
+        Thread t1 = new Thread(foo::methodA);
         Thread t2 = new Thread(()->foo.methodB());
         t1.start();
         t2.start();
