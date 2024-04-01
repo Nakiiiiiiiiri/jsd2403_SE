@@ -5,12 +5,15 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 //聊天室服务端
 public class Server {
     private ServerSocket serverSocket;
-    private List<PrintWriter> allOut = new ArrayList<>();
+    private Map<String,PrintWriter> allOut = new HashMap<>();
+
     public Server(){
         try{
             System.out.println("正在启动服务端");
@@ -76,29 +79,36 @@ public class Server {
                 //由于他们都要操作allOut集合,因此将它作为同步监视器对象是合适的
                 //实际开发中我们总是使用临界资源作为同步监视器对象,即:抢谁就锁谁
                 synchronized (allOut){
-                    allOut.add(pw);
+                    //allOut.add(pw);
+                    allOut.put(nickname,pw);
                 }
 
-                allOut.add(pw);//将客户端的输出流存入共享集合中
+                //allOut.add(pw);//将客户端的输出流存入共享集合中
                 sendMessage(nickname+"加入聊天室，当前人数"+allOut.size());
 
 
 
                 String str;
                 while ((str=br.readLine())!=null){
+                    if(str.startsWith("@")){
+                        sendMessagetoSomeone(str);
 
-                    //服务端输出客户端传来的消息
-
-                   sendMessage(ip+nickname+"说:"+str);
+                    }else {
+                        sendMessage(ip+nickname+"说:"+str);
                     /*System.out.println(ip+nickname+"说:"+str);//用sendMessage替代
                     for(PrintWriter o : allOut){
                         o.println(ip+nickname+"说:"+str);
                     }*/
-                    //将消息发回给客户端
-                    //pw.println();
+                        //将消息发回给客户端
+                        //pw.println();
                     /*if("bye".equalsIgnoreCase(str)){
                         break;
                     }*/
+                    }
+
+                    //服务端输出客户端传来的消息
+
+
                 }
             }catch (IOException e){
                 //可以添加处理客户端异常断开的操作
@@ -106,7 +116,8 @@ public class Server {
 
             }finally {
                 synchronized (allOut){
-                    allOut.remove(pw);
+                   // allOut.remove(pw);
+                    allOut.remove(nickname);
                 }
                 //处理客户端断开连接后的操作
 
@@ -122,9 +133,32 @@ public class Server {
         }
         public  void sendMessage(String message){//将消息发送给所有客户端
             System.out.println(message);
-            for(PrintWriter o:allOut){
+            for(PrintWriter o:allOut.values()){
                 o.println(message);
             }
+
+        }
+        private void sendMessagetoSomeone(String message){
+
+            if(message.matches("@.+:.+")){
+                //截取对方昵称
+                String toNickname = message.substring(1,message.indexOf(":"));
+
+                if(allOut.containsKey(toNickname)){
+                    //获取对方输出流
+                    PrintWriter pw = allOut.get(toNickname);
+                    String content = message.substring(message.indexOf(":") + 1);
+                    pw.println(nickname+"悄悄对你说:"+content);
+                }else {
+                    PrintWriter pw = allOut.get(nickname);
+                    pw.println("用户["+nickname+"]不存在");
+                }
+
+            }else {
+                PrintWriter pw = allOut.get(nickname);
+            pw.println("私聊格式错误，应该是@对方昵称：输入消息");}
+
+
 
         }
     }

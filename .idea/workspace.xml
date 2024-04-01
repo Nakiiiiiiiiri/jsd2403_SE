@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/MapDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/MapDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/map/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reflect/ReflectDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Thread/SyncDemo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Thread/SyncDemo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/map/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/socket/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,34 +54,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SplitDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilderDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilderDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringDemo2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test01.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test05.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValueOfDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.matches.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Konata/IdeaProjects/jsd2403_SE&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;通义灵码&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SplitDemo.executor": "Run",
+    "Application.StringBuilderDemo.executor": "Run",
+    "Application.StringBuilderDemo2.executor": "Run",
+    "Application.StringDemo2.executor": "Run",
+    "Application.Test01.executor": "Run",
+    "Application.Test05.executor": "Run",
+    "Application.ValueOfDemo.executor": "Run",
+    "Application.matches.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "通义灵码",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Exception" />
@@ -101,7 +99,7 @@
       <recent name="Thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="CharAt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CharAt" />
       <module name="jsd2403_SE" />
@@ -115,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.MapDemo2" />
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.Client" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.MapDemo3" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.Server" />
       <module name="jsd2403_SE" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,18 +167,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CharAt" />
-      <item itemvalue="Application.MapDemo2" />
-      <item itemvalue="Application.MapDemo3" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.SyncDemo6" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.CharAt" />
         <item itemvalue="Application.SyncDemo6" />
-        <item itemvalue="Application.MapDemo3" />
-        <item itemvalue="Application.MapDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +214,7 @@
       <workItem from="1711673249006" duration="20435000" />
       <workItem from="1711759541808" duration="19528000" />
       <workItem from="1711788184017" duration="3755000" />
-      <workItem from="1711934287045" duration="13980000" />
+      <workItem from="1711934287045" duration="22483000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -490,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711938129260</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="更新">
+      <created>1711956510128</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1711956510128</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
