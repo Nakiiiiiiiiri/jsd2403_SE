@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/ReflectDemo11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflect/ReflectDemo11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/reflect/Test5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reflect/Test5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleGame/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -77,7 +78,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "通义灵码",
+    "settings.editor.selected.configurable": "copyright",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -223,7 +224,7 @@
       <workItem from="1711788184017" duration="3755000" />
       <workItem from="1711934287045" duration="22653000" />
       <workItem from="1712020926346" duration="4907000" />
-      <workItem from="1712027539029" duration="20375000" />
+      <workItem from="1712027539029" duration="23475000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -525,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712056907073</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="更新">
+      <created>1712058308738</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1712058308738</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
