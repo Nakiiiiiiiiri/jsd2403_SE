@@ -11,8 +11,8 @@ public class ReflectDemo11 {
         if(method.isAnnotationPresent(AutoRunMethod.class)){
 
 
-            AutoRunMethod arm = method.getAnnotation(AutoRunMethod.class);
-            int value = arm.value();
+            AutoRunMethod arm = method.getAnnotation(AutoRunMethod.class);//注解实例化
+            int value = arm.value();//获取注解中value的数值
             System.out.println("注解参数值为"+value);
         }
     }
