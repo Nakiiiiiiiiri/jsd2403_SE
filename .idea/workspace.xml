@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Assassin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Berserker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Caster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Lancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Rider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Saber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fa8051b-d9dc-46ac-b47a-77c0992924c1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1fa8051b-d9dc-46ac-b47a-77c0992924c1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SimpleGame/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleGame/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,7 +79,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE/src/main/java/reflect",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -107,20 +117,7 @@
       <recent name="Thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test5">
-    <configuration name="ReflectDemo10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.ReflectDemo10" />
-      <module name="jsd2403_SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.main">
     <configuration name="ReflectDemo11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflect.annotations.ReflectDemo11" />
       <module name="jsd2403_SE" />
@@ -173,8 +170,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleGame.main" />
+      <module name="jsd2403_SE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SimpleGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ReflectDemo10" />
+      <item itemvalue="Application.main" />
       <item itemvalue="Application.ReflectDemo11" />
       <item itemvalue="Application.Test3" />
       <item itemvalue="Application.Test4" />
@@ -182,11 +192,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.ReflectDemo11" />
         <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.ReflectDemo10" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +234,10 @@
       <workItem from="1711788184017" duration="3755000" />
       <workItem from="1711934287045" duration="22653000" />
       <workItem from="1712020926346" duration="4907000" />
-      <workItem from="1712027539029" duration="23475000" />
+      <workItem from="1712027539029" duration="23493000" />
+      <workItem from="1712105017857" duration="29000" />
+      <workItem from="1712105052012" duration="18000" />
+      <workItem from="1712105080955" duration="15257000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -533,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712058308738</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="更新">
+      <created>1712062650109</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1712062650109</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

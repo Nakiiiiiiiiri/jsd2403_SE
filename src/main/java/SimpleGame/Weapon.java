@@ -17,14 +17,33 @@ interface Stick extends Weapon{
     void mp_plus();
     @Override
     void hp_plus();
+    void spd_plus();
 
 }
-interface lance extends Weapon{
+interface Lance extends Weapon{
     void ad_plus();
-
-
+    @Override
     void hp_plus();
     void def_plus();
+    void spd_plus();
+}
+interface Knfie extends Weapon{
+    void ad_plus();
+    @Override
+    void hp_plus();
+    void def_plus();
+    void spd_plus();
+}
+interface Bow extends Weapon{
+    void ad_plus();
+    @Override
+    void hp_plus();
+    void def_plus();
+    void spd_plus();
+}
+interface Car extends Weapon{
+    @Override
+    void hp_plus();
     void spd_plus();
 }
 
