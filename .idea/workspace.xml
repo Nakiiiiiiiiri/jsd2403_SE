@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Archer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Assassin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Berserker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Caster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Lancer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Rider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Saber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fa8051b-d9dc-46ac-b47a-77c0992924c1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1fa8051b-d9dc-46ac-b47a-77c0992924c1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleGame/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleGame/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +226,7 @@
       <workItem from="1712027539029" duration="23493000" />
       <workItem from="1712105017857" duration="29000" />
       <workItem from="1712105052012" duration="18000" />
-      <workItem from="1712105080955" duration="15257000" />
+      <workItem from="1712105080955" duration="20999000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -553,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712062650109</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="更新">
+      <created>1712131793593</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1712131793593</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
