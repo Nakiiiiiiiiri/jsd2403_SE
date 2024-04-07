@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="468525d4-899a-4e80-a561-94ee0107ddb8" name="Changes" comment="更新">
+      <change afterPath="$PROJECT_DIR$/src/tedu.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/1fa8051b-d9dc-46ac-b47a-77c0992924c1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1fa8051b-d9dc-46ac-b47a-77c0992924c1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_03_2024_08_33_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_03_2024_08_33__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleGame/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleGame/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +73,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403",
+    "last_opened_file_path": "C:/Users/Konata/IdeaProjects/jsd2403_SE/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,6 +89,9 @@
     "DatabaseDriversLRU": [
       "mysql",
       "mariadb"
+    ],
+    "RunConfigurationTargetLRU": [
+      "1fa8051b-d9dc-46ac-b47a-77c0992924c1"
     ]
   }
 }]]></component>
@@ -92,11 +100,11 @@
       <recent name="Exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src" />
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\java\reflect" />
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main" />
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\java" />
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homework.day01" />
-      <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Konata\IdeaProjects\jsd2403_SE\src\main\homeo1" />
@@ -113,19 +121,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="reflect.annotations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflect.Test3" />
-      <module name="jsd2403_SE" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,20 +167,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="tedu.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/tedu.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="1fa8051b-d9dc-46ac-b47a-77c0992924c1" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.main" />
       <item itemvalue="Application.ReflectDemo11" />
-      <item itemvalue="Application.Test3" />
       <item itemvalue="Application.Test4" />
       <item itemvalue="Application.Test5" />
+      <item itemvalue="Database Script.tedu.sql" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
+        <item itemvalue="Database Script.tedu.sql" />
         <item itemvalue="Application.Test5" />
         <item itemvalue="Application.Test4" />
         <item itemvalue="Application.ReflectDemo11" />
-        <item itemvalue="Application.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +227,8 @@
       <workItem from="1712027539029" duration="23493000" />
       <workItem from="1712105017857" duration="29000" />
       <workItem from="1712105052012" duration="18000" />
-      <workItem from="1712105080955" duration="20999000" />
+      <workItem from="1712105080955" duration="21029000" />
+      <workItem from="1712450214975" duration="26128000" />
     </task>
     <task id="LOCAL-00001" summary="maven">
       <created>1710987871882</created>
@@ -549,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712131793593</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="更新">
+      <created>1712138332163</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1712138332163</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
